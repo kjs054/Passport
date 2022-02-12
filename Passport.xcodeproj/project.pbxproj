@@ -13,6 +13,7 @@
 		630D781827B863740092A700 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D781627B863740092A700 /* Main.storyboard */; };
 		630D781A27B863760092A700 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 630D781927B863760092A700 /* Assets.xcassets */; };
 		630D781D27B863760092A700 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 630D781B27B863760092A700 /* LaunchScreen.storyboard */; };
+		630D782627B86C850092A700 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 630D782527B86C850092A700 /* Gilroy-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		630D781927B863760092A700 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		630D781C27B863760092A700 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		630D781E27B863760092A700 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		630D782527B86C850092A700 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				630D781927B863760092A700 /* Assets.xcassets */,
 				630D781B27B863760092A700 /* LaunchScreen.storyboard */,
 				630D781E27B863760092A700 /* Info.plist */,
+				630D782427B86C4B0092A700 /* Fonts */,
 			);
 			path = Passport;
+			sourceTree = "<group>";
+		};
+		630D782427B86C4B0092A700 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				630D782527B86C850092A700 /* Gilroy-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 				630D781D27B863760092A700 /* LaunchScreen.storyboard in Resources */,
 				630D781A27B863760092A700 /* Assets.xcassets in Resources */,
 				630D781827B863740092A700 /* Main.storyboard in Resources */,
+				630D782627B86C850092A700 /* Gilroy-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
